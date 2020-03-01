@@ -1,6 +1,9 @@
 body {
     width: 100%;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 #mainsearch {
     display: block;
@@ -37,9 +40,64 @@ button {
     font-size: 15px;
     border-style: solid;
     border-color: transparent;
-    color: rgb(117, 117, 117)
+    color: rgb(117, 117, 117);
 }
 button:hover {
     border-color: rgb(160, 160, 160);
     color: rgb(50, 50, 50);
+}
+#signin {
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    list-style-type: none;
+
+}
+li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(50, 50, 50);
+}
+#ul_left {
+    width: 200px;
+
+}
+#ul_right {
+    display: inline-block;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+ 
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 5%;
+    font-size: 16px;
+}
+#footer_left {
+    width: 25%;
+    float: left;
+}
+#footer_right {
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+    width: 15%;
+    float: right;
 }
