@@ -20,6 +20,14 @@ body {
     width: 500px;
     margin-bottom: 20px;
     height: 33px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+    
+}
+#searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 button {
     padding: 8px 16px;
@@ -27,5 +35,11 @@ button {
     border-radius: 4px;
     background-color: #f2f2f2;
     font-size: 15px;
-    text-shadow: none;
+    border-style: solid;
+    border-color: transparent;
+    color: rgb(117, 117, 117)
+}
+button:hover {
+    border-color: rgb(160, 160, 160);
+    color: rgb(50, 50, 50);
 }
